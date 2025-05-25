@@ -3,174 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>Carte des Boissons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 40px;
+      margin: 20px;
       background-color: #f4f4f4;
     }
+
     h1 {
       text-align: center;
+      margin-bottom: 20px;
     }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background-color: #fff;
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px 20px;
+      margin-bottom: 15px;
     }
-    th, td {
-      padding: 12px 15px;
-      border: 1px solid #ccc;
-      text-align: left;
+
+    .card p {
+      margin: 5px 0;
+      line-height: 1.4;
     }
-    th {
-      background-color: #333;
-      color: white;
+
+    .label {
+      font-weight: bold;
+      color: #555;
     }
-    tr:nth-child(even) {
-      background-color: #f9f9f9;
-    }
-    tr:hover {
-      background-color: #e0e0e0;
+
+    @media (min-width: 768px) {
+      .card {
+        max-width: 600px;
+        margin: 15px auto;
+      }
     }
   </style>
 </head>
 <body>
+
   <h1>Carte des Boissons</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Catégorie</th>
-        <th>Nom</th>
-        <th>Type / Ingrédients</th>
-        <th>Contenance</th>
-        <th>Prix (€)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Bières</td>
-        <td>Heineken</td>
-        <td>Blonde</td>
-        <td>33cl</td>
-        <td>4.0</td>
-      </tr>
-      <tr>
-        <td>Bières</td>
-        <td>Leffe Blonde</td>
-        <td>Abbaye</td>
-        <td>33cl</td>
-        <td>5.0</td>
-      </tr>
-      <tr>
-        <td>Bières</td>
-        <td>Corona</td>
-        <td>Blonde</td>
-        <td>35,5cl</td>
-        <td>5.5</td>
-      </tr>
-      <tr>
-        <td>Bières</td>
-        <td>Guinness</td>
-        <td>Brune</td>
-        <td>33cl</td>
-        <td>5.5</td>
-      </tr>
-      <tr>
-        <td>Vins rouges</td>
-        <td>Merlot</td>
-        <td>Pays d’Oc</td>
-        <td>Verre</td>
-        <td>4.5</td>
-      </tr>
-    </tbody>
-  </table>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Carte des Boissons</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f4f4f4;
-    }
-    h1 {
-      text-align: center;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background-color: #fff;
-    }
-    th, td {
-      padding: 12px 15px;
-      border: 1px solid #ccc;
-      text-align: left;
-    }
-    th {
-      background-color: #333;
-      color: white;
-    }
-    tr:nth-child(even) {
-      background-color: #f9f9f9;
-    }
-    tr:hover {
-      background-color: #e0e0e0;
-    }
-  </style>
-</head>
-<body>
-  <h1>Carte des Boissons</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Catégorie</th>
-        <th>Nom</th>
-        <th>Type / Ingrédients</th>
-        <th>Contenance</th>
-        <th>Prix (€)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Bières</td>
-        <td>Heineken</td>
-        <td>Blonde</td>
-        <td>33cl</td>
-        <td>4.0</td>
-      </tr>
-      <tr>
-        <td>Bières</td>
-        <td>Leffe Blonde</td>
-        <td>Abbaye</td>
-        <td>33cl</td>
-        <td>5.0</td>
-      </tr>
-      <tr>
-        <td>Bières</td>
-        <td>Corona</td>
-        <td>Blonde</td>
-        <td>35,5cl</td>
-        <td>5.5</td>
-      </tr>
-      <tr>
-        <td>Bières</td>
-        <td>Guinness</td>
-        <td>Brune</td>
-        <td>33cl</td>
-        <td>5.5</td>
-      </tr>
-      <tr>
-        <td>Vins rouges</td>
-        <td>Merlot</td>
-        <td>Pays d’Oc</td>
-        <td>Verre</td>
-        <td>4.5</td>
-      </tr>
-    </tbody>
-  </table>
-</body>
-</html>
+
+  <div class="card">
+    <p><span class="label">Catégorie :</span> Bières</p>
+    <p><span class="label">Nom :</span> Heineken</p>
+    <p><span class="label">Type / Ingrédients :</span> Blonde</p>
+    <p><span class="label">Contenance :</span> 33cl</p>
+    <p><span class="label">Prix (€) :</span> 4.0</p>
+  </div>
+
+  <div class="card">
+    <p><span class="label">Catégorie :</span> Bières</p>
+    <p><sp
