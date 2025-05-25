@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte des Boissons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #7D1D3F;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #7D1D3F;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .price {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Carte des Boissons</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Catégorie</th>
+                <th>Nom</th>
+                <th>Type / Ingrédients</th>
+                <th>Contenance</th>
+                <th>Prix (€)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bières</td>
+                <td>Heineken</td>
+                <td>Blonde</td>
+                <td>33cl</td>
+                <td class="price">4,00</td>
+            </tr>
+            <tr>
+                <td>Bières</td>
+                <td>Leffe Blonde</td>
+                <td>Abbaye</td>
+                <td>33cl</td>
+                <td class="price">5,00</td>
+            </tr>
+            <tr>
+                <td>Bières</td>
+                <td>Corona</td>
+                <td>Blonde</td>
+                <td>35,5cl</td>
+                <td class="price">5,50</td>
+            </tr>
+            <tr>
+                <td>Bières</td>
+                <td>Guinness</td>
+                <td>Brune</td>
+                <td>33cl</td>
+                <td class="price">5,50</td>
+            </tr>
+            <tr>
+                <td>Vins rouges</td>
+                <td>Merlot</td>
+                <td>Pays d'Oc</td>
+                <td>Verre</td>
+                <td class="price">4,50</td>
+            </tr>
+            <tr>
+                <td>Vins rouges</td>
+                <td>Bordeaux</td>
+                <td>France</td>
+                <td>Verre</td>
+                <td class="price">5,00</td>
+            </tr>
+            <tr>
+                <td>Vins blancs</td>
+                <td>Chardonnay</td>
+                <td>Pays d'Oc</td>
+                <td>Verre</td>
+                <td class="price">4,50</td>
+            </tr>
+            <tr>
+                <td>Vins blancs</td>
+                <td>Sauvignon</td>
+                <td>Loire</td>
+                <td>Verre</td>
+                <td class="price">5,00</td>
+            </tr>
+            <tr>
+                <td>Vins rosés</td>
+                <td>Côtes de Provence</td>
+                <td>France</td>
+                <td>Verre</td>
+                <td class="price">5,00</td>
+            </tr>
+            <tr>
+                <td>Cocktails</td>
+                <td>Mojito</td>
+                <td>Rhum, menthe, citron, sucre, eau gazeuse</td>
+                <td>-</td>
+                <td class="price">8,00</td>
+            </tr>
+            <tr>
+                <td>Cocktails</td>
+                <td>Spritz</td>
+                <td>Apérol, prosecco, eau pétillante</td>
+                <td>-</td>
+                <td class="price">7,50</td>
+            </tr>
+            <tr>
+                <td>Cocktails</td>
+                <td>Caïpirinha</td>
+                <td>Cachaça, citron vert, sucre</td>
+                <td>-</td>
+                <td class="price">8,00</td>
+            </tr>
+            <tr>
+                <td>Cocktails</td>
+                <td>Sex on the Beach</td>
+                <td>Vodka, liqueur de pêche, jus d'orange, cranberry</td>
+                <td>-</td>
+                <td class="price">8,50</td>
+            </tr>
+            <tr>
+                <td>Spiritueux</td>
+                <td>Jameson</td>
+                <td>Whisky irlandais</td>
+                <td>-</td>
+                <td class="price">6,00</td>
+            </tr>
+            <tr>
+                <td>Spiritueux</td>
+                <td>Absolut</td>
+                <td>Vodka suédoise</td>
+                <td>-</td>
+                <td class="price">5,50</td>
+            </tr>
+            <tr>
+                <td>Spiritueux</td>
+                <td>Havana Club</td>
+                <td>Rhum cubain</td>
+                <td>-</td>
+                <td class="price">5,50</td>
+            </tr>
+            <tr>
+                <td>Spiritueux</td>
+                <td>Bombay Sapphire</td>
+                <td>Gin anglais</td>
+                <td>-</td>
+                <td class="price">6,00</td>
+            </tr>
+            <tr>
+                <td>Softs</td>
+                <td>Coca-Cola / Zéro</td>
+                <td>Soda</td>
+                <td>33cl</td>
+                <td class="price">3,00</td>
+            </tr>
+            <tr>
+                <td>Softs</td>
+                <td>Jus d'orange</td>
+                <td>Pur jus</td>
+                <td>25cl</td>
+                <td class="price">3,50</td>
+            </tr>
+            <tr>
+                <td>Softs</td>
+                <td>Eau plate/gazeuse</td>
+                <td>-</td>
+                <td>50cl</td>
+                <td class="price">2,50</td>
+            </tr>
+            <tr>
+                <td>Softs</td>
+                <td>Red Bull</td>
+                <td>Énergisant</td>
+                <td>25cl</td>
+                <td class="price">4,00</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
